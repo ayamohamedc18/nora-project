@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>Cinema Wedding Invitation</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="css/index.css">
+
+</head>
+
+<body data-bs-spy="scroll"
+    data-bs-target="#navId"
+    data-bs-offset="90"
+    tabindex="0">
+
+<!-- ===========================
+        Navbar
+============================ -->
+
+<nav class="navbar navbar-expand-lg fixed-top bg-white border-bottom py-3" id="navId">
+        <div class="container">
+
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#" >
+                <div class="logo-box grad-bg d-flex align-items-center justify-content-center rounded-3">
+                    <i class="fa-solid fa-cube text-white fs-5"></i>
+                </div>
+                <span class="grad-text">Wedding</span>
+            </a>
+
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navContent">
+
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-lg-2">
+                    <li class="nav-item">
+                        <a class="nav-link active custom-underline fw-bold text-slate" href="#home">الرئيسية</a>
+                    </li>
+
+
+                   
+
+                    
+                    <li class="nav-item"><a class="nav-link custom-underline fw-bold text-slate" href="#cast">أبطال الفيلم</a></li>
+                    <li class="nav-item"><a class="nav-link custom-underline fw-bold text-slate" href="#gallery">المشاهد</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link custom-underline fw-bold text-slate" href="#premiere">بطاقة الدعوة</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link custom-underline fw-bold text-slate" href="#rsvp"> تأكيد الحضور</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link custom-underline fw-bold text-slate" href="#location"> الموقع</a>
+                    </li>
+                </ul>
+
+
+                
+            </div>
+        </div>
+    </nav>
+
+<!-- ===========================
+        Hero
+============================ -->
+
+<section class="hero d-flex align-items-center" id="home">
+
+    <div class="container py-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8 text-center">
+
+                <span class="coming-soon">
+                    قريبًا في جميع دور العرض
+                </span>
+
+                <h1 class="display-1 hero-title">
+
+                    احمد
+
+                    <span class="heart">
+                        ♥
+                    </span>
+
+                    نور
+
+                </h1>
+                <audio id="bgMusic" loop>
+    <source src="music/04.Hikayat.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn">
+    ▶
+</button>
+
+                <h2 class="movie-title">
+
+                    حكاية العمر
+
+                </h2>
+
+                <p class="release-date">
+
+                    العرض الأول
+
+ 
+
+                    <strong>
+                        14 اغسطس 2026
+                    </strong>
+
+                </p>
+
+                <div class="mt-5">
+
+                    <button
+                        class="btn btn-warning btn-lg me-3"
+                        data-bs-toggle="modal"
+                        data-bs-target="#trailer">
+
+                        <i class="bi bi-play-fill"></i>
+
+                        مشاهدة الإعلان
+
+                    </button>
+
+                    <a href="#"
+
+                       class="btn btn-outline-light btn-lg text-warning color-primary">
+
+                        <i class="bi bi-ticket-perforated-fill"></i>
+
+                        احجز مقعدك
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+        Trailer Modal
+============================ -->
+
+<div class="modal fade"
+
+     id="trailer"
+
+     tabindex="-1">
+
+    <div class="modal-dialog modal-xl">
+
+        <div class="modal-content bg-dark">
+
+            <div class="modal-header border-0">
+
+                <h4 class="text-white">
+
+                    الإعلان الرسمي
+
+                </h4>
+
+                <button
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <div class="ratio ratio-16x9">
+
+                    <iframe
+
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+
+                        allowfullscreen>
+
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ===============================
+        OUR STORY
+================================ -->
+
+<section class="story py-5" id="story">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h6 class="text-warning text-uppercase">
+                بداية الحكاية
+            </h6>
+
+            <h2 class="section-title">
+                شاهدوا الإعلان الرسمي لحكاية العمر
+            </h2>
+
+            <p class="text-secondary">
+                لكل فيلم عظيم بداية...
+وهذه كانت بداية قصتنا.
+            </p>
+
+        </div>
+
+        <div id="storyCarousel"
+             class="carousel slide carousel-fade"
+             data-bs-ride="carousel">
+
+            <!-- Indicators -->
+
+            <div class="carousel-indicators">
+
+                <button type="button"
+                        data-bs-target="#storyCarousel"
+                        data-bs-slide-to="0"
+                        class="active">
+                </button>
+
+                <button type="button"
+                        data-bs-target="#storyCarousel"
+                        data-bs-slide-to="1">
+                </button>
+
+                <button type="button"
+                        data-bs-target="#storyCarousel"
+                        data-bs-slide-to="2">
+                </button>
+
+                <button type="button"
+                        data-bs-target="#storyCarousel"
+                        data-bs-slide-to="3">
+                </button>
+
+            </div>
+
+            <!-- Carousel Items -->
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+
+                <div class="carousel-item active">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+
+                            <img src="images/WhatsApp Image 2026-07-19 at 1.21.49 AM (1).jpeg"
+                                 class="img-fluid rounded shadow-lg story-image">
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <div class="story-box">
+
+                                <span class="scene-number">
+                                    المشهد الأول
+
+
+                                </span>
+
+                                <h2>
+                                    اللقاء الأول
+                                </h2>
+
+                                <p class="text-secondary">
+
+                                    بدأت الحكاية بلقاء لم يكن في الحسبان،
+لكن كان كافيًا ليغير حياتنا إلى الأبد.
+
+                                </p>
+
+                                <h5 class="text-warning">
+                                    2019
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Slide 2 -->
+
+                <div class="carousel-item">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+
+                            <img src="images/WhatsApp Image 2026-07-19 at 1.21.49 AM.jpeg"
+                                 class="img-fluid rounded shadow-lg story-image">
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <div class="story-box">
+
+                                <span class="scene-number">
+                                    المشهد الثاني
+                                </span>
+
+                                <h2>
+                                    أول موعد
+                                </h2>
+
+                                <p class="text-secondary">
+
+                                    ضحكات...
+حديث طويل...
+وأول ذكرى لا تُنسى.
+
+                                </p>
+
+                                <h5 class="text-warning">
+                                    2020
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Slide 3 -->
+
+                <div class="carousel-item">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+
+                            <img src="images/4.jpeg"
+                                 class="img-fluid rounded shadow-lg story-image">
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <div class="story-box">
+
+                                <span class="scene-number">
+                                    المشهد الثالث
+                                </span>
+
+                                <h2>
+                                    لحظة العمر
+                                </h2>
+
+                                <p class="text-secondary">
+
+                                    سؤال واحد...
+
+وإجابة واحدة...
+
+لتبدأ رحلة العمر.
+
+                                </p>
+
+                                <h5 class="text-warning">
+                                    2025
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Slide 4 -->
+
+                <div class="carousel-item">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+
+                            <img src="images/2.jpeg"
+                                 class="img-fluid rounded shadow-lg story-image">
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <div class="story-box">
+
+                                <span class="scene-number">
+                                    المشهد الأخير
+                                </span>
+
+                                <h2>
+                                    قريبًا...
+                                </h2>
+
+                                <p class="text-secondary">
+
+                                    العرض الأول
+
+                                </p>
+
+                                <a href="#rsvp"
+                                   class="btn btn-warning mt-3">
+
+                                    احجز مقعدك
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Previous -->
+
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#storyCarousel"
+                    data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+            <!-- Next -->
+
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#storyCarousel"
+                    data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+            MEET THE CAST
+=========================================== -->
+
+<section class="cast-section py-5" id="cast">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h6 class="text-warning text-uppercase">
+                أبطال الفيلم
+            </h6>
+
+            <h2 class="section-title">
+                
+            </h2>
+
+            <p class="text-secondary">
+                كل فيلم ناجح له أبطال...
+وهؤلاء هم أبطال حكايتنا.
+            </p>
+
+        </div>
+
+        <div class="row justify-content-center gy-5">
+
+            <!-- Bride -->
+
+            <div class="col-lg-5 col-md-6">
+
+                <div class="cast-card">
+
+                    <div class="cast-image">
+
+                        <img src="images/noor.jpeg"
+                             class="img-fluid">
+
+                    </div>
+
+                    <div class="cast-content">
+
+                        <span class="role">
+                            بطلة الفيلم
+                        </span>
+
+                        <h2>
+                            نور
+                        </h2>
+
+                        <p class="text-secondary">
+
+                            الابتسامة التي جعلت كل مشهد أجمل.
+
+                        </p>
+
+                        <div class="social-icons">
+
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Groom -->
+
+            <div class="col-lg-5 col-md-6">
+
+                <div class="cast-card">
+
+                    <div class="cast-image">
+
+                        <img src="images/ahmed(1).jpeg"
+                             class="img-fluid">
+
+                    </div>
+
+                    <div class="cast-content">
+
+                        <span class="role">
+                            بطل الفيلم
+                        </span>
+
+                        <h2>
+                            أحمد
+                        </h2>
+
+                        <p class="text-secondary">
+
+                            من جعل الحياة مغامرة تستحق أن تُعاش.
+
+                        </p>
+
+                        <div class="social-icons">
+
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+                MOVIE SCENES
+=========================================== -->
+
+<section class="movie-gallery py-5" id="gallery">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h6 class="text-warning text-uppercase">
+                مشاهد من الحكاية
+            </h6>
+
+            <h2 class="section-title">
+                كل صورة تحكي فصلًا من رحلتنا.
+            </h2>
+
+            <p class="text-secondary">
+                                كل صورة تحكي فصلًا من رحلتنا.
+
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Scene 1 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="film-card">
+
+                    <img src="images/1.jpeg"
+                         class="img-fluid">
+
+                    <div class="film-overlay">
+
+                        <span>المشهد الأول</span>
+
+                        <h4>اللقاء الأول</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Scene 2 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="film-card">
+
+                    <img src="images/2.jpeg"
+                         class="img-fluid">
+
+                    <div class="film-overlay">
+
+                        <span>المشهد الثاني</span>
+
+                        <h4>أول موعد</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Scene 3 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="film-card">
+
+                    <img src="images/3.jpeg"
+                         class="img-fluid">
+
+                    <div class="film-overlay">
+
+                        <span>المشهد الثالث</span>
+
+                        <h4>الخطوبة</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Scene 4 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="film-card">
+
+                    <img src="images/4.jpeg"
+                         class="img-fluid">
+
+                    <div class="film-overlay">
+
+                        <span>المشهد الرابع</span>
+
+                        <h4>مغامرتنا</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Scene 5 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="film-card">
+
+                    <img src="images/5.jpeg"
+                         class="img-fluid">
+
+                    <div class="film-overlay">
+
+                        <span>المشهد الخامس</span>
+
+                        <h4>إلى الأبد</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Scene 6 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="film-card">
+
+                    <img src="images/dc69bbf436c1056166dc110483f84173.jpg"
+                         class="img-fluid">
+
+                    <div class="film-overlay">
+
+                        <span>المشهد الاخير</span>
+
+                        <h4>العرض الأول قريبًا</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+            PREMIERE TICKET
+========================================== -->
+
+<section class="premiere py-5" id="premiere">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h6 class="text-warning text-uppercase">
+                بطاقة الدعوة
+            </h6>
+
+            <h2 class="section-title">
+                Your VIP Ticket
+            </h2>
+
+            <p class="text-secondary">
+
+                يسعدنا حضوركم معنا
+في العرض الأول لحكاية العمر.
+
+            </p>
+
+        </div>
+
+        <div class="ticket">
+
+            <div class="row align-items-center">
+
+                <!-- Left Side -->
+
+                <div class="col-lg-8">
+
+                    <div class="ticket-left">
+
+                        <span class="vip">
+
+                            دعوة خاصة
+
+                        </span>
+
+                        <h1>
+
+                            احمد ❤ نور
+
+                        </h1>
+
+                        <h4>
+
+                            العرض الأول
+
+                        </h4>
+
+                        <div class="row mt-5">
+
+                            <div class="col-md-6 mb-4">
+
+                                <h6>التاريخ</h6>
+
+                                <p>14 August 2026</p>
+
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+
+                                <h6>الوقت</h6>
+
+                                <p>7:00 PM</p>
+
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+
+                                <h6>المكان</h6>
+
+                                <p>New Downtown Jouliana Hall</p>
+
+                            </div>
+
+                            
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side -->
+
+                <div class="col-lg-4">
+
+                    <div class="ticket-right text-center">
+
+                        <h5>
+
+                            يتبقى على العرض الأول
+
+                        </h5>
+
+                        <div class="countdown">
+
+                            <div class="countdown">
+
+    <div class="time-box fs-5">
+        <span id="days">00</span>
+        <small>Days</small>
+    </div>
+
+    <div class="time-box fs-5">
+        <span id="hours">00</span>
+        <small>Hours</small>
+    </div>
+
+    <div class="time-box fs-5">
+        <span id="minutes">00</span>
+        <small>Minutes</small>
+    </div>
+
+    <div class="time-box fs-5">
+        <span id="seconds">00</span>
+        <small>Seconds</small>
+    </div>
+
+</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+                BOOK YOUR SEAT
+========================================== -->
+
+<section class="booking-section py-5" id="rsvp">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h6 class="text-warning text-uppercase">
+                تأكيد الحضور
+            </h6>
+
+            <h2 class="section-title">
+                
+            </h2>
+
+            <p class="text-secondary">
+                احجز مكانك في أهم عرض لهذا العام.
+            </p>
+
+        </div>
+
+        <!-- Cinema Screen -->
+
+        <div class="screen text-center mb-5">
+
+            <span>SCREEN</span>
+
+        </div>
+
+        <div class="booking-card">
+
+            <form>
+
+                <div class="row">
+
+                    <!-- Guest Name -->
+
+                    <div class="col-md-6 mb-4">
+
+                        <label class="form-label">
+
+                            الاسم
+
+                        </label>
+
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Enter your name">
+
+                    </div>
+
+                    <!-- Email -->
+
+                    <div class="col-md-6 mb-4">
+
+                        <label class="form-label">
+
+                            البريد الإلكتروني
+
+                        </label>
+
+                        <input type="email"
+                               class="form-control"
+                               placeholder="example@email.com">
+
+                    </div>
+
+                    <!-- Number of Tickets -->
+
+                    <div class="col-md-6 mb-4">
+
+                        <label class="form-label">
+
+                           عدد المقاعد
+
+                        </label>
+
+                        <select class="form-select">
+
+                            <option>1 Ticket</option>
+                            <option>2 Tickets</option>
+                            <option>3 Tickets</option>
+                            <option>4 Tickets</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Meal -->
+
+                   
+
+                    <!-- Attendance -->
+
+                    <div class="col-md-12 mb-4">
+
+                        <label class="form-label">
+
+                            هل ستحضر؟
+
+                        </label>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="radio"
+                                   name="attendance"
+                                   checked>
+
+                            <label class="form-check-label">
+
+                                نعم، سأكون معكم ❤️
+
+                            </label>
+
+                        </div>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="radio"
+                                   name="attendance">
+
+                            <label class="form-check-label">
+
+                                للأسف لن أستطيع الحضور
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Message -->
+
+                    <div class="col-12 mb-4">
+
+                        <label class="form-label">
+
+                            اكتب رسالة
+
+                        </label>
+
+                        <textarea
+                            rows="5"
+                            class="form-control"
+                            placeholder="Write your wishes..."></textarea>
+
+                    </div>
+
+                    <div class="text-center">
+
+                        <button class="btn btn-warning btn-lg px-5">
+
+                            🎟 تأكيد الحضور
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+            MOVIE ENDING
+========================================== -->
+
+<section class="ending-section" id="location">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h6 class="text-warning text-uppercase">
+                مكان العرض الأول
+            </h6>
+
+            <h2 class="section-title">
+                
+            </h2>
+
+            <p class="text-secondry">
+                في هذا المكان تبدأ حكايتنا الجديدة،
+ونسعد بوجودكم معنا.
+            </p>
+
+        </div>
+
+        <!-- Google Map -->
+
+        <div class="map-container">
+
+    <iframe
+        src="https://www.google.com/maps?q=New+Downtown+Alexandria,+Egypt&output=embed"
+        width="100%"
+        height="500"
+        style="border:0;"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</div>
+
+    </div>
+
+</section>
+
+
+<!-- ===============================
+        MOVIE CREDITS
+================================ -->
+
+<footer class="movie-footer">
+
+    <div class="credits-container">
+
+        <div class="credits">
+
+            <h1>انتهى الفيلم</h1>
+
+            <br>
+
+            <h3>وتبدأ حكايتنا...</h3>
+
+            <p>احمد & نور </p>
+
+            <br>
+
+            <h3>إخراج</h3>
+
+            <p>الحب</p>
+
+            <br>
+
+            <h3>إنتاج</h3>
+
+            <p>عائلاتنا</p>
+
+            <br>
+
+            <h3>بطولة</h3>
+
+            <p>احمد</p>
+            <p>نور</p>
+
+            <br>
+
+            <h3>شكر خاص</h3>
+
+            <p>اهلنا</p>
+
+            
+
+            <p>اصحابنا</p>
+
+            <p>كل اللي نورونا</p>
+
+            <br>
+
+            <h3>Soundtrack</h3>
+
+            <p>Your Favorite Love Song</p>
+
+            <br>
+
+            <h2>قريبًا...</h2>
+
+            <br>
+
+            <h1>وتبدأ حكايتنا...
+
+♥
+
+شكرًا لحضوركم</h1>
+
+        </div>
+
+    </div>
+   
+</footer>
+
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+
+</html>
